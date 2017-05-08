@@ -146,7 +146,7 @@ module.exports = function(app, server, io) {
     app.get("/", function(req, res){
         res.sendFile(path.join(rootDir + '/index.html'));
     });
-    app.get("/about", function(req, res){
+  /*  app.get("/about", function(req, res){
         res.sendFile(path.join(rootDir + '/about.html'));
     });
 
@@ -156,7 +156,7 @@ module.exports = function(app, server, io) {
 
     app.get("/contact", function(req, res){
         res.sendFile(path.join(rootDir + '/contact.html'));
-    });
+    }); */
 
     function validateEmail(email) {
         var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
