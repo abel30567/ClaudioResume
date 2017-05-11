@@ -51,6 +51,12 @@
   .members-container .member{
     float: left;
   }
+  .members-container .row .col-md-6 .text h1{
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 2em;
+  
+}
 
   .members-container .row .col-md-2 .text{
     float: left;
