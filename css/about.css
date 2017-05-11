@@ -1,6 +1,5 @@
 .members-container{
-  padding: 50px;
-  margin-top: 60px;
+  margin-top: 110px;
   width: 100%;
   display: inline-block;
   
@@ -35,7 +34,10 @@
   width: 100%;
   height: auto;
 }
-
+.members-container .member img.center{
+    display: block;
+    margin: 0 auto;
+}
 
 @media (max-width: 500px) {
   .text-center{
@@ -44,13 +46,15 @@
   }
   .members-container{
     margin: 0 auto;
-    margin-top: 60px;
+    margin-top: 110px;
     width: 100%;
   }
 
   .members-container .member{
-    float: left;
-  }
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
   .members-container .row .col-md-6 .text h1{
   font-family: 'Josefin Sans', sans-serif;
   color: black;

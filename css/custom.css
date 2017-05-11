@@ -70,7 +70,6 @@ html{
     font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
   font-size: 3.4em;
-  margin-top: 50px;
   text-align: center
 
 }
@@ -645,6 +644,15 @@ width: 600px;
 .questions .question .expContainer .row .edPosition {
     display: inline;
 }
+.questions .question .textProj {
+    margin-left: 30px;
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  border-top: 1px solid #d0cdcf;
+  padding-top: 13px;
+  text-align: center;
+}
 .questions .question .textProj .projectContainer{
     margin-bottom: 20px;
 }
@@ -726,7 +734,7 @@ width: 600px;
     padding: 20px;
 }
 .text{
-    font-size: 2.3em;
+    font-size: 2em;
 }
 }
 
@@ -741,4 +749,11 @@ width: 600px;
   .questions {
     padding-bottom: 100px;
   }
+}
+@media (max-width: 800px) {
+    .members-container .member{
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+    }
 }
