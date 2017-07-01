@@ -609,7 +609,7 @@ width: 600px;
 }
 
 .questions .question .text h2{
-    font-size: 0.9em;
+    
 }
 .questions .question .text span{
     display: inline;
@@ -625,12 +625,16 @@ width: 600px;
     background: transparent;
     font-size: 2.8em;
     color: #1ECC96;
+    margin-top:20px;
 }
+
 
 .questions .question .text .exp-btn:focus{
     outline: none;
 }
-
+.questions .question .CertTitle{
+    font-size: .7em;
+}
 .questions .question .text h4{
     display: flex;
 }
@@ -680,8 +684,7 @@ width: 600px;
     width: 24%;
 }
 .questions .question .certifications img{
-    height:310px;
-    width:500px;
+    width: 100%;
 }
 .heading{
   text-align:center;
@@ -715,7 +718,9 @@ width: 600px;
   font-weight: 400;
   font-size: 1.2em;
 }
-
+.collapse.in {
+    display: inline-table !important;
+}
 @media (max-width: 700px) {
   .form-container, .conf-container {
     width: 95%;
@@ -751,25 +756,25 @@ width: 600px;
 
 @media (max-width: 600px) {
   .questions .question p{
-    font-size: 1.2em;
-    font-weight: bold;
+    font-size: 0.8em;
+    
   }
 .questions .question button{
-      font-size: 2.1em;
+      font-size: 1.9em;
   }
   .questions {
     padding-bottom: 100px;
   }
   .questions .question .text h4{
-      font-size: .7em;
+      
   }
   .questions .question .certifications img{
-      height: 315px;
-      width: 405px;
-      margin-left: -50px;
+      width: 100%;
+      
       
   }
 }
+
 @media (min-width:700px) {
    
 }
