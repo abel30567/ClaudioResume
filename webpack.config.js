@@ -4,8 +4,8 @@ const webpack = require('webpack');
 module.exports = {
   context: path.resolve(__dirname, './src'),
   entry: {
-    home: './home/index.jsx',
-    product: './product/index.jsx',
+    // home: './home/index.jsx',
+    // product: './product/index.jsx',
     contact: './contact/index.jsx'
   },
   output: {

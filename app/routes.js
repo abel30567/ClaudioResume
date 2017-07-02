@@ -54,7 +54,7 @@ module.exports = function(app, server, io) {
             var mailOptions = {
                 from: "info@imarkett.com", // sender address
                 to: "claudio@imarkett.com", // list of receivers
-                subject: 'Message from user', // Subject line
+                subject: 'Message from your page', // Subject line
                 text: text, // plain text body
             };
 
