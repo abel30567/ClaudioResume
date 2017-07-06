@@ -11653,7 +11653,7 @@ var App = function (_React$Component) {
             } else if (!that.validateEmail(email)) {
                 that.createNotification('error', 'Invalid E-mail address.');
             } else {
-                axios.get('http://claudioatilano.com/contact-req', {
+                axios.get('http://34.211.231.2/contact-req', {
                     params: {
                         name: name,
                         lastn: lastn,
