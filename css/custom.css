@@ -560,13 +560,19 @@ width: 600px;
 }
 
 .questions .question{
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top:10px;
+  border:1px solid #d0cdcf; 
+  border-radius:10px;
 }
 
 .questions .question span{
   display: inline;
 }
-
+.questions .question span .dropdownIcon{
+    position: relative;
+    right: 0;
+}
 .questions .question .arrow-btn{
   border: 0px;
   background: transparent;
@@ -594,6 +600,7 @@ width: 600px;
 
 .questions .question .text{
   margin-left: 30px;
+  margin-right: 30px;
   color: black;
   font-size: 1.5em;
   font-family: 'Josefin Sans', sans-serif;
@@ -605,7 +612,7 @@ width: 600px;
 
 .questions .question .text .expContainer{
     margin-bottom: 20px;
-
+    border-top: 1px solid #d0cdcf;
 }
 
 .questions .question .text h2{
@@ -647,6 +654,9 @@ width: 600px;
 }
 .questions .question .expContainer .row button:focus{
     outline: none;
+}
+.questions .question .expContainer .row .expLogo{
+    
 }
 .questions .question .expContainer .row .expLogo img{
     width: 60%;
@@ -725,6 +735,7 @@ width: 600px;
   .form-container, .conf-container {
     width: 95%;
   }
+  
 .text h1{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
@@ -738,20 +749,13 @@ width: 600px;
   .questions .question button{
       font-size: 3em;
   }
-.questions .question .textProj{
-  margin-left: 0px;
-  color: black;
-  font-size: 1.5em;
-  font-family: 'Josefin Sans', sans-serif;
-  border-top: 1px solid #d0cdcf;
-  padding-top: 13px
-}
 .footer-distributed{
     padding: 20px;
 }
 .text{
     font-size: 2em;
 }
+
 }
 
 @media (max-width: 600px) {
@@ -760,7 +764,8 @@ width: 600px;
     
   }
   .questions .question .text{
-      margin-left: 0px;
+      margin-left: 10px;
+      margin-right: 10px;
   }
 .questions .question .text .cert-btn {
     font-size: 1.5em;
@@ -774,11 +779,22 @@ width: 600px;
   .questions .question .certifications img{
       width: 100%;   
   }
+  .glyphicon {
+      position:relative;
+      top:8px;
+  }
+  .questions .question span .dropdownIcon {
+        color:#d0cdcf
+    }
 
-}
-
-@media (min-width:700px) {
-   
+    .questions .question .textProj{
+    margin-left: 0px;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Josefin Sans', sans-serif;
+    border-top: 1px solid #d0cdcf;
+    padding-top: 13px
+    }
 }
 @media (max-width: 800px) {
     .members-container .member{

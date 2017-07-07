@@ -36,7 +36,7 @@
 
 .footer-distributed .footer-right{
 
-	margin-left: 43%;
+	text-align: center;
 }
 
 .footer-distributed .footer-right a{
@@ -50,8 +50,9 @@
 	color: #ffffff;
 	text-align: center;
 	line-height: 35px;
-
-	margin-left: 1em;
+	margin-left:5%;
+	margin-right:5%;
+	
 }
 
 /* If you don't want the footer to be responsive, remove these media queries */
